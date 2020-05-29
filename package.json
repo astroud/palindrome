@@ -1,0 +1,24 @@
+{
+  "name": "astroud-palindrome",
+  "version": "0.1.0",
+  "description": "Dangerous palindrome detector",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astroud/palindrome.git"
+  },
+  "keywords": [
+    "palindrome",
+    "learn-enough",
+    "javascript"
+  ],
+  "author": "Aaron Stroud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/astroud/palindrome/issues"
+  },
+  "homepage": "https://github.com/astroud/palindrome#readme"
+}
