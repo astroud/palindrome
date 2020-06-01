@@ -10,7 +10,8 @@ function Phrase(content) {
   this.content = content;
 
   this.processor = function processor(string) {
-    return string.toLowerCase();
+    const regex = /[a-zA-Z]/g;
+    return string.match(regex).join("").toLowerCase();
   }
 
   // Returns content processed for palindrome testing.
